@@ -1,0 +1,28 @@
+# Obtiene nombre del curso
+
+'//*[@class="CourseDetail-left-title"]/text()'
+
+# Obtiene cantidad de tiempo y nivel asignado
+
+'//*[@class="CourseDetail-middle-left"]//text()'
+
+# Obtiene nombre del profesor
+
+'//*[@class="TeacherList-full-name"]/text()'
+
+# Obtiene link de cada clase del curso
+
+'//*[@id="timeline-v2"]//a[@class="MaterialItem-anchor"]/@href'
+
+----------------------------------------------------------------
+
+Ingreso a la clase:
+
+# Obtiene cantidad de aportes y de preguntas
+
+'//*[@class="CommunityTabs-content-tabs"]//text()'
+
+# Obtiene cantidad de like mas alta
+
+'(//*[@class="LikeButton "]/span/text())[1]'
+
