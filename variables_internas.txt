@@ -1,3 +1,23 @@
+https://platzi.com/login/
+
+# Input user
+
+'//*[@name="email"]'
+
+# Input password
+
+'//*[@name="password"]'
+
+# Input iniciar
+
+'//span[contains(text(), "Inicia sesión")]'
+
+----------------------------------------------------------------
+
+for loop [data_school_courses.csv]
+
+----------------------------------------------------------------
+
 # Obtiene nombre del curso
 
 '//*[@class="CourseDetail-left-title"]/text()'
